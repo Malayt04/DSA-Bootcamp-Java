@@ -5,14 +5,14 @@
 ## Easy
 - [Add Binary](https://leetcode.com/problems/add-binary/) // Have to do once again
 - [Single Number](https://leetcode.com/problems/single-number/)  Done (Xor operation on alll the elements of the array this will return the unique element)
-- [Reverse Bits](https://leetcode.com/problems/reverse-bits/)  
-- [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)
-- [Counting Bits](https://leetcode.com/problems/counting-bits/)
-- [Binary Watch](https://leetcode.com/problems/binary-watch/)
-- [Hamming Distance](https://leetcode.com/problems/hamming-distance/)
+- [Reverse Bits](https://leetcode.com/problems/reverse-bits/)  remember for(i=0; i<32; i++){rev=<<1 rev|=(n&1) n=>>1}
+- [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) Done(right shift n and take & with 1)
+- [Counting Bits](https://leetcode.com/problems/counting-bits/) Done, Same as above
+- [Binary Watch](https://leetcode.com/problems/binary-watch/) 
+- [Hamming Distance](https://leetcode.com/problems/hamming-distance/) return number of set bits present in x^y
 - [Number Complement](https://leetcode.com/problems/number-complement/)
-- [Set Mismatch](https://leetcode.com/problems/set-mismatch/)
-- [Binary Number with Alternating Bits](https://leetcode.com/problems/binary-number-with-alternating-bits/)
+- [Set Mismatch](https://leetcode.com/problems/set-mismatch/) 
+- [Binary Number with Alternating Bits](https://leetcode.com/problems/binary-number-with-alternating-bits/) Done
 - [Prime Number of Set Bits in Binary Representation](https://leetcode.com/problems/prime-number-of-set-bits-in-binary-representation/)
 - [Binary Gap](https://leetcode.com/problems/binary-gap/)
 - [Number of Steps to Reduce a Number to Zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/)
