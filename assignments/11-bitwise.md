@@ -28,7 +28,18 @@
 - [Longest Nice Substring](https://leetcode.com/problems/longest-nice-substring/)
 
 ## Medium
-- [Subsets](https://leetcode.com/problems/subsets/)
+- [Subsets](https://leetcode.com/problems/subsets/)<br>
+```
+for(int i=0; i<subsetLength; i++){
+            List<Integer> subset = new ArrayList<>();
+            for(int j=0; j<n; j++){
+                if((int)(i&(1<<j))!=0){
+                    subset.add(nums[j]);
+                }
+            }
+            ans.add(subset);
+        }
+```
 - [Subsets II](https://leetcode.com/problems/subsets-ii/)
 - [Single Number II](https://leetcode.com/problems/single-number-ii/)
 - [Divide Two Integers](https://leetcode.com/problems/divide-two-integers/)
