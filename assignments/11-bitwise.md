@@ -45,6 +45,7 @@ for(int i=0; i<subsetLength; i++){
         }
 ```
 - [Subsets II](https://leetcode.com/problems/subsets-ii/)
+  Same as Above just check if the subset is already present in the answer and maniplate accordingly.
 - [Single Number II](https://leetcode.com/problems/single-number-ii/)
   O(n^2)
   ```
