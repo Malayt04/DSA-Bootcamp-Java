@@ -28,6 +28,10 @@
 - [Longest Nice Substring](https://leetcode.com/problems/longest-nice-substring/)
 
 ## Medium
+
+###Note:  Many questions follow the pattern of counting number of set bits 
+
+
 - [Subsets](https://leetcode.com/problems/subsets/)<br>
 ```
 for(int i=0; i<subsetLength; i++){
@@ -42,6 +46,27 @@ for(int i=0; i<subsetLength; i++){
 ```
 - [Subsets II](https://leetcode.com/problems/subsets-ii/)
 - [Single Number II](https://leetcode.com/problems/single-number-ii/)
+  O(n^2)
+  ```
+  for (int num : nums) {
+        for (int i = 0; i < 32; i++) {
+            if ((num & (1 << i)) != 0) {
+                counts[i]++;
+            }
+        }
+    }
+    for (int i = 0; i < 32; i++) {
+        result |= (counts[i] % 3) << i;
+    }
+  ```
+  O(n)
+  ```
+   for (int num : nums) {
+        ones = (ones ^ num) & ~twos;
+        twos = (twos ^ num) & ~ones;
+    }
+  ```
+  
 - [Divide Two Integers](https://leetcode.com/problems/divide-two-integers/)
 - [Gray Code](https://leetcode.com/problems/gray-code/)
 - [Repeated DNA Sequences](https://leetcode.com/problems/repeated-dna-sequences/)
