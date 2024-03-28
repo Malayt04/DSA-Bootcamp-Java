@@ -29,7 +29,7 @@
 
 ## Medium
 
-###Note:  Many questions follow the pattern of counting number of set bits 
+### Note:  Many questions follow the pattern of counting number of set bits 
 
 
 - [Subsets](https://leetcode.com/problems/subsets/)<br>
@@ -45,7 +45,7 @@ for(int i=0; i<subsetLength; i++){
         }
 ```
 - [Subsets II](https://leetcode.com/problems/subsets-ii/)
-  Same as Above just check if the subset is already present in the answer and maniplate accordingly.
+  Same as Above just check if the subset is already present in the answer and maniplate accordingly. In such cases of duplicates, it is better to sort the array first and then perform all the operaitons.
 - [Single Number II](https://leetcode.com/problems/single-number-ii/)
   O(n^2)
   ```
@@ -69,6 +69,8 @@ for(int i=0; i<subsetLength; i++){
   ```
   
 - [Divide Two Integers](https://leetcode.com/problems/divide-two-integers/)
+- [Watch this](https://www.wikihow.com/Subtract-Binary-Numbers)
+  
 - [Gray Code](https://leetcode.com/problems/gray-code/)
 - [Repeated DNA Sequences](https://leetcode.com/problems/repeated-dna-sequences/)
 
