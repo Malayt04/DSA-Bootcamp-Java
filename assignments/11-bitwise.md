@@ -69,7 +69,7 @@ for(int i=0; i<subsetLength; i++){
   ```
   
 - [Divide Two Integers](https://leetcode.com/problems/divide-two-integers/)
-- [Watch this](https://www.wikihow.com/Subtract-Binary-Numbers)
+- [Watch this](https://www.wikihow.com/Divide-Binary-Numbers)
   
 - [Gray Code](https://leetcode.com/problems/gray-code/)
 - [Repeated DNA Sequences](https://leetcode.com/problems/repeated-dna-sequences/)
